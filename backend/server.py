@@ -13,8 +13,8 @@ MASTER_PASSWORD_FILE = "master_password.txt"
 PASSWORDS_FILE = "passwords.txt"
 
 # Configure these environment variables for email functionality
-os.environ["SENDER_EMAIL"] = "noreplylocksafe@gmail.com"
-os.environ["SENDER_PASSWORD"] = "acec rdae aehu gmdi"
+os.environ["SENDER_EMAIL"] = "sender email@gmail.com"
+os.environ["SENDER_PASSWORD"] = "16 character app password"
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
